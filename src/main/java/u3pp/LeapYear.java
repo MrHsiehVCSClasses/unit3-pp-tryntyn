@@ -22,6 +22,7 @@ public class LeapYear {
 		{
 			if(year % 100 == 0)
 			{
+			
 				if(year % 400 == 0)
 				{
 					return true;
@@ -30,11 +31,18 @@ public class LeapYear {
 					return false; 
 				}
 			}
+
 			return true;
 		
 		} 
-		else 
+		else {
+
+		}
 		return false;
  
+	}
+
+	public static char[] Main() {
+		return null;
 	}
 }
